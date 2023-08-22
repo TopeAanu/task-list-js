@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open', sans-serif;
+  line-height: 2;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* Utilities */
+.container {
+  margin: auto;
+  overflow: hidden;
+  padding-top: 4rem;
+  max-width: 400px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd;
+  background: #ccc;
+  padding: 1px 15px;
+  list-style: none;
+}
+
+.delete-item {
+  color: teal;
+  transition: .5s;
+}
+
+.delete-item:hover {
+  opacity: .6;
+}
+
+.btn {
+  display: inline-block;
+  padding: .5rem 1.3rem;
+  text-transform: uppercase;
+  border: none;
+  transition: all .5s;
+  background: #ccc;
+}
+
+.btn-black {
+  display: inline-block;
+  padding: .3rem 1.5rem;
+  text-transform: uppercase;
+  border: none;
+  transition: all .5s;
+  background: #0e0d0d;
+  color: #fff;
+  margin-top: 1rem;
+}
+
+.btn:hover {
+  background: #ddd;
+}
+
+.btn-black:hover {
+  background: #333;
+}
+
+.heading {
+  padding: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.heading-task {
+  padding: 1rem 0;
+  font-size: 1.5rem;
+}
+
+.action {
+  margin-top: 1rem;
+  border-top: 1px solid #ddd;
+}
+
+.item-div {
+  border: 1px solid #ccc;
+  padding: 3rem 1rem;
+}
+
+#task, 
+#filter {
+  width: 100%;
+  padding: .5rem .2rem;
+  margin-bottom: 1rem;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid #ddd;
+}
+
+#filter {
+  margin-bottom: 2rem;
+}
+
+#task:hover,
+#filter:hover {
+  border-bottom: 1px solid teal;
+}
+
+input:focus {
+  outline: none;
+}

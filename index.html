@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/5cc6b0f723.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media.css">
+  <title>Task list</title>
+</head>
+<body>
+  <div class="box">
+    <div class="container">
+      <div id="main" class="item-div">
+        <h3 id="list-title" class="heading"><span class="title">Task List</span></h3>
+
+        <form id="task-form">
+
+          <!-- <h1 class="title">JS</h1> -->
+
+          <div class="input-field">
+            <input type="text" name="task" id="task" placeholder="Enter Task..." >
+          </div>
+
+          <input type="submit" value="Add Task" class="btn">
+        </form>
+  
+        <div class="action">
+          <p class="heading-task">Tasks</p>
+
+          <input type="text" name="task" id="filter" class="my-2" placeholder="Filter..." >
+          
+          <ol class="items-class"></ol>
+        </div>
+        
+        <a href="#" class="clear-tasks btn-black">Clear Tasks</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
