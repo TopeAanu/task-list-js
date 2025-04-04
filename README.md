@@ -1,2 +1,2 @@
-# task-list-js
-After delving deep into JavaScript's DOM, I was able to develop a web app task-list that enables users to organize their day by logging daily tasks into the UI. This app offers several functionalities, including task input, task clearing, task filtering, and clearing all tasks. Throughout this project, I learned how to dynamically retrieve and modify web page elements and attributes such as headings, paragraphs, classes, IDs, buttons, input fields, etc. Also, I gained knowledge in traversing the DOM, creating and removing elements, adding event listeners, working with event objects, and utilizing the local storage. 
+# Task List app
+Task-list was built to help users list the items of their day. You can asign your list for the day with it. Languages: Html, css and JavaScript. View the project [here](https://topetasklistapp.netlify.app/)
